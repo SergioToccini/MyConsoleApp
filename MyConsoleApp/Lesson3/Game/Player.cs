@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyConsoleApp.Game
+﻿namespace Lesson3.Game
 {
     public class Player
     {

@@ -1,14 +1,9 @@
-﻿
-using MyConsoleApp.Game;
-using System;
-using System.Net;
-using System.Net.Http;
-using System.Net.Sockets;
-using System.Threading.Tasks;
+﻿using System;
+using Lesson3.Game;
 
 // Resharper
 
-namespace MyConsoleApp
+namespace Lesson3
 {
     partial class Program
     {
