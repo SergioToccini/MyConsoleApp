@@ -5,11 +5,14 @@ namespace Lesson5
 {
     public class Program
     {
-
+        public class MyClass
+        {
+            
+        }
 
         // 1. Выкладываем свой проект на GitHub
         // 2. Повторяем все отношения между классами:
-        //      - Зависимость
+        //      - Зависимость (Пример: Вложенный класс - обращение по ссылке Program.MyClass)
         //      - Ассоциация (Агрегация по значению / Агрегация по ссылке)
         //      - Наследование
         //      - Реализация
@@ -18,6 +21,8 @@ namespace Lesson5
         // 5. Решаем задачки
         public static void Main(string[] args)
         {
+            Program.MyClass myClass = new Program.MyClass();
+
             User user = new User("Уася", 777);
 
             Console.ReadKey();
