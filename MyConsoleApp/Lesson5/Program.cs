@@ -1,4 +1,5 @@
 ﻿using System;
+using Lesson5.Implementation;
 
 namespace Lesson5
 {
@@ -17,7 +18,7 @@ namespace Lesson5
         // 5. Решаем задачки
         public static void Main(string[] args)
         {
-
+            User user = new User("Уася", 777);
 
             Console.ReadKey();
         }

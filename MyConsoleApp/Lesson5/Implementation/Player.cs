@@ -24,10 +24,10 @@ namespace Lesson5.Implementation
         // Конструктор 1
         public User()
         {
-            
+            Console.WriteLine("Конструктор 1");
         }
         // Конструктор 2
-        public User(int x) 
+        public User(int x) : this()
         {
             Console.WriteLine("Конструктор 2");
         }
