@@ -71,7 +71,7 @@ namespace Lesson8
             //EncapsulateLogic();
             //TryDictionary();
             //TryHashtable1();
-            TryHashtable2();
+            //TryHashtable2();
 
 
             Console.ReadKey();
