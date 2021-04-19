@@ -66,13 +66,13 @@ namespace Lesson2
                 x = myValue;
             }
 
-            // Сеттер
+            // Сеттер 
             public void SetX(int myValue)
             {
                 x = myValue;
             }
 
-            // Геттер
+            // Геттер 
             public int GetX()
             {
                 return x;
@@ -83,6 +83,12 @@ namespace Lesson2
             {
                 Console.WriteLine(x);
             }
+        }
+
+        public class MyClass2
+        {
+
+            public int X { get; set; }
         }
 
         static void Main(string[] args)

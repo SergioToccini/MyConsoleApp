@@ -7,5 +7,10 @@
         public bool IsEquipped { get; set; }
 
         public abstract void Show();
+
+        public void SayHello()
+        {
+            System.Console.WriteLine("Hello!");
+        }
     }
 }

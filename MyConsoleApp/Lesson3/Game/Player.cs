@@ -5,15 +5,14 @@
         private IWeapon _weapon;
         private Armor _armor;
 
-        public Player(IWeapon weapon, Armor armor)
+        public void SetArmor(Armor armor)
         {
-            _weapon = weapon;
             _armor = armor;
         }
 
-        public void UseWeapon()
+        public void SetWeapon(IWeapon weapon)
         {
-            _weapon.Use();
+            _weapon = weapon;
         }
 
         public void ShowArmor()
@@ -21,6 +20,10 @@
             _armor.Show();
         }
 
+        public void UseWeapon()
+        {
+            _weapon.Use();
+        }
 
     }
 }
