@@ -1,9 +1,21 @@
-﻿namespace Lesson3.Game
+﻿using System;
+
+namespace Lesson3.Game
 {
     public class Player
     {
         private IWeapon _weapon;
         private Armor _armor;
+
+        public Player()
+        {
+            Console.WriteLine("Я конструктор без параметров");
+        }
+
+        public Player(IWeapon weapon) : this()
+        {
+            _weapon = weapon;
+        }
 
         public void SetArmor(Armor armor)
         {
@@ -24,6 +36,8 @@
         {
             _weapon.Use();
         }
+
+
 
     }
 }
