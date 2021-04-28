@@ -36,9 +36,10 @@ namespace Lesson7
 
          */
 
+
+
         static void Main(string[] args)
         {
-
             //IteratorExample();
             //Collection0Example();
             //Collection1Example();
